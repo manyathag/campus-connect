@@ -1,0 +1,18 @@
+[hidden]{display:none!important}
+.profile-section{max-width:1200px;margin:54px auto 70px}
+.profile-card{max-width:760px;padding:24px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+.profile-identity{display:flex;align-items:center;gap:15px;padding-bottom:21px;border-bottom:1px solid var(--line)}
+.profile-avatar{width:63px;height:63px;border-radius:50%;background:#e5edf9;color:var(--blue);display:grid;place-items:center;font:800 18px Manrope}
+.profile-identity h3{font:800 16px Manrope;margin:0 0 5px}
+.profile-identity p{color:#7a8798;font-size:11px;margin:0 0 8px}
+.role-pill{display:inline-flex;border-radius:20px;background:#edf3fc;color:var(--blue);padding:4px 8px;font-size:9px;font-weight:700;text-transform:capitalize}
+#profileForm{max-width:430px;padding:19px 0 22px}
+#profileMessage{display:inline-block;margin-left:10px}
+.profile-settings{border-top:1px solid var(--line);padding-top:17px;display:flex;align-items:center;gap:9px}
+.profile-settings>div{flex:1}
+.profile-settings b,.profile-settings small{display:block}
+.profile-settings b{font:700 11px Manrope}
+.profile-settings small{font-size:9px;color:#8390a0;margin-top:4px}
+.logout-button{color:#a74c5a}
+@media(max-width:1270px){.profile-section{margin-left:24px;margin-right:24px}}
+@media(max-width:570px){.profile-section{margin:38px 13px 50px}.profile-card{padding:18px 15px}.profile-settings{align-items:flex-start;flex-wrap:wrap}.profile-settings>div{flex-basis:100%;padding-bottom:5px}.profile-settings .small-button{flex:1}.profile-avatar{width:52px;height:52px}}
